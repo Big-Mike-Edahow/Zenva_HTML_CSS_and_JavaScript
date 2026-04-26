@@ -1,0 +1,51 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+html {
+    font-size: 12pt;
+}
+
+body {
+    background: #b10dc9;
+}
+
+main {
+        padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#search-bar {
+    width: 80%;
+    height: 40px;
+    font-size: 20px;
+}
+
+.adventures-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.adventure {
+    width: 120px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+}

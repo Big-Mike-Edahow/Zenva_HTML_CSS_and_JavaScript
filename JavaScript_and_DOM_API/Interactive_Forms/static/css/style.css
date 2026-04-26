@@ -1,0 +1,91 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+html {
+    font-size: 12pt;
+}
+
+body {
+    background-color: azure;
+}
+
+main {
+    margin-top: 30px;
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headline-h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+form {
+    font-size: 1.2rem;
+    margin: auto;
+    padding: 20px;
+    width: 300px;
+    height: 370px;
+    border: thick solid #9900ff;
+    background-color: #00ffaa;
+}
+
+.textInput {
+    width: 100%;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    padding: 3px;
+    border: none;
+    border-radius: 3px;
+}
+
+#petSelection {
+    margin-top: 10px;
+    display: none;
+}
+
+#saveButton {
+    font-size: 1.1rem;
+    padding: 3px 5px;
+    color: white;
+    background-color: #9900ff;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+#saveButton:active {
+    box-shadow: inset 2px 2px 2px black;
+}
+
+table {
+    width: 50%;
+    font-size: 1.2rem;
+    margin: auto;
+    border: 2px solid #9900ff;
+    background-color: #00ffaa;
+}
+
+th, td {
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid white;
+}
