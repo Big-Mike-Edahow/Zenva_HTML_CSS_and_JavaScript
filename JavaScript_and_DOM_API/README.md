@@ -1,4 +1,5 @@
-# JavaScript and DOM API
+# Zenva - JavaScript and DOM API
+My versions of the example programs from the Zenva course.
 
 - DOM is the document object model
 - Elements of a webpage in a tree-like format
